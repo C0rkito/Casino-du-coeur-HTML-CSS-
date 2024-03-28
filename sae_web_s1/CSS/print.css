@@ -1,0 +1,15 @@
+nav,footer{
+	display: none;
+}
+
+#btn-print{
+	display: none;
+}
+
+#information-sup{
+	display: none;
+}
+
+*{
+	color: black;
+}
