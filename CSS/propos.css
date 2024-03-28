@@ -1,0 +1,38 @@
+h2{
+	margin-bottom: 5vh;
+}
+
+
+#liste-equipe ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#description{
+	text-align: justify;
+	width: 50%;
+	margin-left: 25vw;
+	margin-bottom: 5vh;
+}
+
+
+#recrute{
+	margin-top: 5vh;
+	padding-bottom: 2vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	background-color: darkred;
+}
+#recrute a{
+	font-size: 25px;
+	color: white;
+}
+#recrute a:hover{
+	text-decoration: underline;
+}
+#recrute li{
+	margin-bottom: 1vh;
+}

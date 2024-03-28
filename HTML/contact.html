@@ -1,0 +1,123 @@
+<!doctype html> 
+<html lang="fr"> 
+	<head> 
+		<title> Casino du coeur </title> 
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel = "stylesheet" type = "text/css" href = "../CSS/styles.css">
+		<link rel = "stylesheet" type = "text/css" href = "../CSS/contact.css">
+
+		<meta name="keywords" content="casino">
+		<link rel = "icon" type = "image/png" href = "../img/icon.png">
+	</head> 
+	<body>
+
+		<header>
+
+
+
+			<div id="menu-ordi">
+
+				<nav> 
+				<a href="../index.html"><img class="icone" src="../img/logo.svg" alt="icone du site"></a>
+				
+					<ul>
+						<li> 
+							<button class="button" onclick="window.location.href='../index.html'"> Accueil</button>
+						</li> 
+						<li> <button class="button" onclick="window.location.href='page_2.html'"> Nos jeux</button></li> 
+						<li><button class="button" onclick="window.location.href='page_3.html'"> Nos partenaires</button> </li> 
+						<li><button class="button " onclick="window.location.href='page_4.html'"> A propos de nous</button></li>
+						<li> <button class="button page_courante" onclick="window.location.href='#'"> Contact</button></li>  
+					</ul> 
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<a href="#"><img id="btn_up" src="img/icone/arrow-up.svg" alt="icone de fleche"></a>
+			<h1> Contactez nous !</h1>
+			<form method="POST" action="https://dwarves.iut-fbleau.fr/requete.php">
+
+				<div>
+					<label for="lastname">Nom : </label>
+					<input type="text" name="lastname" id="lastname" placeholder="ex: Dupont" required>
+				</div>
+
+				<div>
+					<label for="firstname">Prénom : </label>
+					<input type="text" name="firstname" id="firstname" placeholder="ex: Jean-Paul" required>
+				</div>
+
+				<div>
+					<label for="birthdate">Date de naissance : </label>
+					<input type="date" name="birthdate" id="birthdate">
+				</div>
+
+				<div>
+					<label for="email">Adresse email : </label>
+					<input type="email" name="email" id="email" placeholder="ex: jean-paul.dupont@gmail.com" required>
+				</div>
+
+				<div>
+					<label for="phonenumber">N° Télephone portable : </label>
+					<input type="text" name="phonenumber" id="phonenumber" placeholder="ex: 0655664488" pattern="^(\+33|0)[6-7](\d\d){4}$" required>
+				</div>
+
+				<div>
+					<input type="radio" name="gender" id="femme" value="Madame" required>
+					<label for="femme">Femme </label>
+					<input type="radio" name="gender" id="homme" value="Monsieur" required>
+					<label for="homme">Homme </label>
+					<input type="radio" name="gender" id="autre" value="Autre" required>
+					<label for="autre">Autre </label>
+				</div>
+
+				<div>
+					<label for="message"> Message : </label>
+					<textarea name="message" id="message" required></textarea>
+				</div>
+
+				<div>
+					<input type="submit" value="Envoyer">
+				</div>
+
+			</form>
+		</main>
+
+			<footer>
+
+				<div id="reseaux">
+
+					<ul>
+
+						<li><a href="https://twitter.com" target="_blank"> <img src="../img/icone/twitter.svg" alt="icone de twitter"></a></li>
+						<li><a href="https://instagram.com" target="_blank"> <img src="../img/icone/instagram.svg" alt="icone d'instagram"></a></li>
+						<li><a href="https://tiktok.com" target="_blank"> <img src="../img/icone/tiktok.svg" alt="icone de tiktok"></a></li>
+					</ul>
+					<p> Suivez nos actualités !</p>
+				</div>
+
+				<div id="autres">
+					<ul>
+						<li><a href="" target="_blank">Mentions légales</a></li>
+						<li><a href="" target="_blank">Conditions générales d'utilisation</a></li>
+						<li><a href="credits.txt" target="_blank">Crédits</a></li>
+						<li><a href="charte_graphique" target="_blank">Charte graphique</a></li>
+					</ul>
+				</div>
+
+				<div id="coordonne"> 
+					
+					<img src="../img/icone/envelope.svg" alt="icone d'enveloppe">
+					<p>Casinoducoeur@gmail.fr </p>
+					<img src="../img/icone/location.svg" alt="icone adresse">
+					<p id="adresse"> 200 Rue du kwanga</p>
+					
+				</div>
+
+
+				<a href="../index.html"><img class="icone" src="../img/logo.svg" alt="icone du site"></a>
+		</footer>
+
+	</body>

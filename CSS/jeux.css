@@ -1,0 +1,22 @@
+.jeu{
+    padding-left: 25%;
+
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+body{
+    background-size: cover;
+    background-image: url(../img/layered-peaks-haikei.svg) ;
+    width: 100%;
+}
+
+main{
+    padding-top: 45px;
+}
+
+p div{
+    color: white;
+}

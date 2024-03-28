@@ -1,0 +1,103 @@
+#txt-list{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 10vh;
+}
+
+#ligne-partenaires {
+	backdrop-filter: blur(10px);
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.hov-partenaire{
+	position: absolute;
+	color: white;
+	font-size: 1.5rem;
+	backdrop-filter: blur(10px);
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 5px;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	display: none;
+}
+
+#ligne-partenaires li:hover div{
+	transition: all ease 0.4s;
+	display: block;
+}
+
+#ligne-partenaires a{
+	text-decoration: none;
+}
+
+#colonne-partenaires {
+	backdrop-filter: blur(10px);
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+#colonne-partenaires li:hover div{
+	display: block;
+}
+
+#colonne-partenaires a{
+	text-decoration: none;
+}
+
+#ligne-colonne{
+	display: flex;
+	flex-direction: column;
+}
+
+#ligne-colonne img{
+	width: 15vw;
+	height: 25vh;
+}
+#ligne-colonne ul{
+	color: black;
+	list-style: none;
+	display: flex;
+}
+
+aside{
+	width: 40vw;
+}
+
+#btn-contact{
+	margin: 1%;
+	padding: 22px 75px;
+	left:50%;
+	border: 2px solid darkred;
+	border-radius: 10px;
+	transition: all ease 0.4s;
+}
+
+#btn-contact p{
+	padding: 0;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+}
+
+#btn-contact:hover{
+	border: 2px solid none;
+	background-color: darkred;
+	
+}
+
+#btn-contact:hover p{
+	color: white;
+}
+
+#nouveau-partenaire{
+	display: flex;
+	align-items: center;
+	
+}
