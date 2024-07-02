@@ -1,1 +1,1 @@
-dwarves.iut-fbleau.fr/~izanic/SAE/
+https://dwarves.iut-fbleau.fr/~izanic/SAE
